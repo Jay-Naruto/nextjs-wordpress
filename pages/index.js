@@ -1,3 +1,8 @@
-export default function Home() {
-  return <div>Next JS &amp; WordPress course.</div>;
-}
+
+import getProps from "utils/getProps";
+import Page from "components/Page/Page";
+
+
+export default Page
+
+export const getStaticProps= getProps
